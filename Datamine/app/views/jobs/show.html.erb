@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @job.company_id %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @job.status %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @job.title %>
+</p>
+
+<p>
+  <strong>Sumary:</strong>
+  <%= @job.sumary %>
+</p>
+
+<p>
+  <strong>Winning bid:</strong>
+  <%= @job.winning_bid_id %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @job.data_id %>
+</p>
+
+<%= link_to 'Edit', edit_job_path(@job) %> |
+<%= link_to 'Back', jobs_path %>
